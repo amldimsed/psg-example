@@ -11,4 +11,4 @@
 - <span style="color:orange">c++</span>
 
 1. <span style="color:orange">frace de estoico [frace](https://www.tiktok.com/@presocratico_/video/7359663795704253701?is_from_webapp=1&sender_device=pc)</span>
-2. <span style="color:orange">frace de estoicok [frace](https://www.tiktok.com/@presocratico_/video/7359421207478914310?is_from_webapp=1&sender_device=pc)</span>
+2. <span style="color:orange">frace de estoicok [frace](https://www.tiktok.com/@presocratico_/video/7359421207478914310?is_from_webapp=1&sender_device=pc)</span>q
