@@ -10,8 +10,8 @@
 2. [Ejercicio 2](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_02/ejercicio_02.md)
 
 ## Retos de Sesion 03
-1. [Ejercicio 1](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_02/ejercicio_01.md)
-2. [Ejercicio 2](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_02/ejercicio_02.md)
-3. [Ejercicio 3](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_02/ejercicio_02.md)
+1. [Ejercicio 1](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_03/ejercicio_01.py)
+2. [Ejercicio 2](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_03/ejercicio_02.py)
+3. [Ejercicio 3](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_03/ejercicio_03.py)
 
 ![arcanos de Chen](chens_dota2.jpg)
