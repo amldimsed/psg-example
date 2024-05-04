@@ -27,7 +27,7 @@
 4. [Ejercicio 4](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_05/ejercicio_04.py)
 5. [Ejercicio 5](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_05/ejercicio_05.ipynb)
 
-## Retos de Sesion 05
+## Retos de Sesion 06
 1. [Ejercicio 1](https://github.com/amldimsed/psg-example/blob/main/tarea_sesion_06/ejercicio_01.py)
 2. [Ejercicio 2](https://github.com/amldimsed/psg-example/blob/main/tarea_sesion_06/ejercicio_02.py)
 3. [Ejercicio 3](https://github.com/amldimsed/psg-example/blob/main/tarea_sesion_06/ejercicio_03.py)
