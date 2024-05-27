@@ -1,4 +1,4 @@
-productos = ["leche","pan","huevo","chocolate","miel"]
+productos = ["leche", "pan", "huevo", "chocolate", "miel"]
 precio = [5.50, 0.50, 1.0, 15.0, 57.0]
 
 #Agregar 5 productos nuevos al final de las listas
@@ -53,8 +53,12 @@ print("menos uno eliminado: ",len(prod), " productos")
 print("total menos uno eliminado: ", sum(precio), "Bs")
 
 #Ordena los productos alfabéticamente y precios si es posible
-#se podria si se haria manualmente, para ambos se puede, lo haria pero un poquito me olvide y repasar el sueño me vence y no me deja
-#una razon mas por q no es bueno hacer con metodos propios del lenguaje, igual me paso para un jueguito en c++ con unreal y otros
+# 9.4. Una opcion para ordenar alfabeticamente es hacer una copia y 
+# ordenarla despues buscar los indices y con eso reordenar los precios,
+# si seria limitada al tamaño de la lista, muchas veces es bueno 
+# concentrarse en lo que se te 
+# pide y no pensar en N casos xq puede ser mas facil de lo que creemos
+
 prod.sort()
 print(prod)
 
