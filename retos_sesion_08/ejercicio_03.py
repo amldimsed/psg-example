@@ -7,4 +7,6 @@ cad = input("ingresa cadena: ")
 tupla = tuple(cad)
 
 concatenar1 = ('¡', ) + tupla + ('!', )
+
+concatenar1 *= 3
 print(concatenar1)
