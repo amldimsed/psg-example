@@ -59,8 +59,32 @@ print("total menos uno eliminado: ", sum(precio), "Bs")
 # concentrarse en lo que se te 
 # pide y no pensar en N casos xq puede ser mas facil de lo que creemos
 
-prod.sort()
-print(prod)
+# no, no se puede es bien tedioso, no vivo sin los bucles
+# me volvi al final cheems no mas, .....estoy cansado jefe.......
+
+# Copia del inicio, productos y precios
+#*************METODO INSERT SHORT****************
+orden_producto = productos.copy()
+orden_precios = precio.copy()
+for i in range(1, len(prod)):
+    insert_sort_prod = orden_producto[i]
+    insert_sort_prec = orden_precios[i]
+    # guardamos en j el indice de elemento anterior
+    j = i - 1
+    # movemos todos los elementos de la lista hacia delante
+    # si son mayores que el elemto a insertar
+    while j >= 0 and orden_producto[j] > insert_sort_prod:
+        # ambos son del mismo tamaño precio y producto
+        orden_producto[j + 1] = orden_producto[j]
+        orden_precios[j + 1] = orden_precios[j]
+        j -= 1
+    # insertamos el elemto ambos
+    orden_producto[j + 1] = insert_sort_prod
+    orden_precios[j + 1] = insert_sort_prec
+
+#prod.sort()
+print(orden_producto)
+print(orden_precios)
 
 #Eliminar todos los productos de las listas
 prod.clear()
