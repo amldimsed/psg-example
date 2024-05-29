@@ -86,4 +86,8 @@
 6. [Ejercicio 6](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_12/ejercicio_06.py)
 7. [Ejercicio 7](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_12/sesion12.ipynb)
 
+## Retos de Sesion 13
+1. [Ejercicio 1](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_13/ejercicio_01.py)
+2. [Ejercicio 2](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_13/ejercicio_02.py)
+
 ![arcanos de Chen](chens_dota2.jpg)
