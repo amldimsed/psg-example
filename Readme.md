@@ -96,4 +96,19 @@
 7. [Ejercicio 7](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_13/ejercicio_07.py)
 8. [Ejercicio 8](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_13/sesion13.ipynb)
 
+## Retos de Sesion 14
+1. [Ejercicio 1](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/ejercicio_01.py)
+2. [Ejercicio 2](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/ejercicio_02.py)
+3. [Ejercicio 3](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/ejercicio_03.py)
+4. [Ejercicio 4](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/ejercicio_04.py)
+5. [Ejercicio 5](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/ejercicio_05.py)
+6. [Ejercicio 6](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/ejercicio_06.py)
+7. [Ejercicio 7](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/ejercicio_07.py)
+8. [Ejercicio 8](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_14/sesion14.ipynb)
+
+
+# **Chen Cheems**
 ![arcanos de Chen](chens_dota2.jpg)
+
+# **Cheemsmaster Brewmaster**
+![arcanos Brewmaster](Cheemsmaster_Brewmaster.jpg)
