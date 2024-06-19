@@ -112,6 +112,13 @@
 3. [Ejercicio 3](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_15/ejercicio_03.py)
 4. [Ejercicio 4](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_15/sesion15.ipynb)
 
+## Retos de Sesion - Bonus
+1. [Ejercicio 1](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_bonus/ejercicio_01.py)
+2. [Ejercicio 2](https://github.com/amldimsed/psg-example/blob/main/retos_sesion_bonus/ejercicio_02.py)
+
+## Reto Semanal
+1. [Reto 01](https://github.com/amldimsed/psg-example/blob/main/retos/reto_01.ipynb)
+
 # **Cheems Chen**
 ![arcanos de Chen](chens_dota2.jpg)
 
