@@ -118,6 +118,10 @@
 
 ## Reto Semanal
 1. [Reto 01](https://github.com/amldimsed/psg-example/blob/main/retos/reto_01.ipynb)
+2. [Reto 02](https://github.com/amldimsed/psg-example/blob/main/retos/reto_02.ipynb)
+
+## Mini Extra Retos
+1. [Busca Minas](https://github.com/amldimsed/psg-example/blob/main/extras_retos/buscaminas.ipynb)
 
 # **Cheems Chen**
 ![arcanos de Chen](chens_dota2.jpg)
