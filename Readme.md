@@ -122,7 +122,7 @@
 
 ## Mini Extra Retos
 1. [Busca Minas](https://github.com/amldimsed/psg-example/blob/main/extras_retos/buscaminas.ipynb)
-2. [Tetriz-mini](https://github.com/amldimsed/psg-example/blob/main/extras_retos/Tetris_bases.py)
+2. [Tetriz-mini](https://github.com/amldimsed/psg-example/blob/main/extras_retos/tetriz_logica.ipynb)
 
 # **Cheems Chen**
 ![arcanos de Chen](chens_dota2.jpg)
