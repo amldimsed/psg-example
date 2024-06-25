@@ -1,7 +1,9 @@
 """
 Desafio propuesto por ******MOUREDEV....
-falta rotacion....no hay tiempito...
+
 """
+
+import keyboard
 
 def tetris():
 
@@ -19,23 +21,44 @@ def tetris():
                 ["🥦","🥦","🥦","🥦","🥦","🥦","🥦","🥦","🥦","🥦",]]
     imprimir_pantalla(pantalla)
 
-    #movimientos a realizar
-    pantalla = movimiento(pantalla, "down")
-    pantalla = movimiento(pantalla, "down")
-    pantalla = movimiento(pantalla, "down")
-    pantalla = movimiento(pantalla, "left")
-    pantalla = movimiento(pantalla, "right")
-    pantalla = movimiento(pantalla, "right")
-    pantalla = movimiento(pantalla, "right")
-    pantalla = movimiento(pantalla, "left")
+    rotaciones = 0
+    #movimientos a realizar por teclado
+    #uso de flechas del alfanumerico, barra espacio rotar y esc para salir
+    while(True):
+        evento = keyboard.read_event()
+        if evento.name == "esc":
+            break
+        #una sola pulsacion y no dos veces solo abajo la tecla
+        elif evento.event_type == keyboard.KEY_DOWN:
+            if evento.name == "down":
+                (pantalla, rotaciones) = movimiento(pantalla, "down", rotaciones)
+            elif evento.name == "right":
+                (pantalla, rotaciones) = movimiento(pantalla, "right", rotaciones)
+            elif evento.name == "left":
+                (pantalla, rotaciones) = movimiento(pantalla, "left", rotaciones)
+            elif evento.name == "space":
+                (pantalla, rotaciones) = movimiento(pantalla, "rotate", rotaciones)
 
-def movimiento(pantalla:list, tipo_movent:str) -> list:
+ 
+def movimiento(pantalla:list, tipo_movent:str, rotaciones:int) -> (list, int):
     """
     Tipo de movimiento.
     pantalla: matriz inicial
     """
     #crea una nueva pantalla al inicio
     new_pantalla = [["🥦"]*10 for i in range(12)]
+
+    rotacion_item = 0
+    rotacion = [[(1, 1), (0, 0), (-2, 0),(-1, -1)],
+                [(0, 1), (-1, 0), (0, -1),(1, -2)],
+                [(0, 2), (1, 1), (-1, 1),(-2, 0)],
+                [(0, 1), (1, 0), (2, -1),(1, -2)]]
+    
+    new_rotaciones = rotaciones
+    if tipo_movent == "rotate":
+        new_rotaciones = 0 if rotaciones == 3 else rotaciones + 1
+    
+    
 
     #recorre toda la matriz hasta encontrar un cubo o forma y procede a mover    
     for row_index, row in enumerate(pantalla):
@@ -61,16 +84,19 @@ def movimiento(pantalla:list, tipo_movent:str) -> list:
                     new_column_index = column_index + 1
                 #todavia falta
                 elif tipo_movent == "rotate":
-                    break
+                    new_row_index = row_index + rotacion[new_rotaciones][rotacion_item][0]
+                    new_column_index = column_index + rotacion[new_rotaciones][rotacion_item][1]
+                    rotacion_item += 1
+
                 #limites del bloque para q no salga del margen
-                if new_row_index > 9 or new_column_index < 0 or new_column_index >9:
+                if new_row_index > 11 or new_column_index < 0 or new_column_index >9:
                     print("No se puede mover\n")
-                    return pantalla
+                    return (pantalla, rotaciones)
                 else:
                     new_pantalla[new_row_index][new_column_index] =  "🍲"
 
     imprimir_pantalla(new_pantalla)
-    return new_pantalla
+    return (new_pantalla, new_rotaciones)
 
     
 def imprimir_pantalla(pantalla:list):
