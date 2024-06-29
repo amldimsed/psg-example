@@ -119,10 +119,12 @@
 ## Reto Semanal
 1. [Reto 01](https://github.com/amldimsed/psg-example/blob/main/retos/reto_01.ipynb)
 2. [Reto 02](https://github.com/amldimsed/psg-example/blob/main/retos/reto_02.ipynb)
+3. [Reto 03](https://github.com/amldimsed/psg-example/blob/main/retos/reto_03.ipynb)
 
 ## Mini Extra Retos
 1. [Busca Minas](https://github.com/amldimsed/psg-example/blob/main/extras_retos/buscaminas.ipynb)
 2. [Tetriz-mini](https://github.com/amldimsed/psg-example/blob/main/extras_retos/tetriz_logica.ipynb)
+3. [TopCoder Arena SRM-854 div2](https://github.com/amldimsed/psg-example/blob/main/extras_retos/top_srm_854_div2.ipynb)
 
 # **Cheems Chen**
 ![arcanos de Chen](chens_dota2.jpg)
